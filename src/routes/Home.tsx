@@ -1,4 +1,5 @@
 import Seo from '../components/Seo'
+import {Link} from "react-router-dom";
 
 export default function Home() {
     return (
@@ -12,7 +13,7 @@ export default function Home() {
                 <div className="heroText">
                     <h1 className="h1">Track spending. Control money.</h1>
                     <p className="lead">
-                        Expense Manager is a fast, privacy-first way to track expenses and plan budgets.
+                        Spencio-Expense Manager is a fast, privacy-first way to track expenses and plan budgets.
                         Simple daily logging, clear insights, and budget discipline without clutter.
                     </p>
 
@@ -20,9 +21,9 @@ export default function Home() {
                         <a className="btnPrimary" href="#download">
                             Get the app
                         </a>
-                        <a className="btnSecondary" href="/expense-manager-site/privacy">
-                            Privacy policy
-                        </a>
+                        <Link className="btnSecondary" to="/privacy">
+                            Privacy Policy
+                        </Link>
                     </div>
 
                     <div className="heroMeta">

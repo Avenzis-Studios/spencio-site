@@ -10,45 +10,55 @@ export default function Privacy() {
 
             <article className="doc">
                 <h1 className="h1">Privacy Policy</h1>
-                <p className="muted">Last updated: {new Date().toLocaleDateString()}</p>
+                <p className="muted">
+                    Last updated: {new Date().toLocaleDateString()}
+                </p>
 
                 <h2 className="h2">Overview</h2>
                 <p>
-                    Expense Manager is designed to help you track expenses and budgets. We aim to collect the minimum data
-                    necessary to operate the app.
+                    Spencio - Expense Manager is designed to help you track expenses and manage budgets
+                    while respecting your privacy. We do not collect, transmit, or store any
+                    personal data on our servers.
                 </p>
 
-                <h2 className="h2">Data We Collect</h2>
+                <h2 className="h2">Information We Collect</h2>
                 <p>
-                    By default, Expense Manager stores your financial entries (expenses, categories, budgets) locally on your device.
-                    We do not require account creation.
+                    Spencio - Expense Manager does not collect any personal information from users.
+                    All expense data, categories, and budgets are stored locally on your device.
+                    We do not require account creation or user identification.
                 </p>
 
                 <h2 className="h2">Analytics and Tracking</h2>
                 <p>
-                    We do not use advertising SDKs. We do not sell your personal information.
-                    If analytics are enabled in the future, this policy will be updated and you will be informed through an app update.
+                    Spencio - Expense Manager does not use analytics, tracking technologies, or advertising
+                    SDKs. We do not track user activity and we do not profile users in any way.
                 </p>
 
                 <h2 className="h2">Data Sharing</h2>
                 <p>
-                    We do not share your data with third parties for marketing purposes.
+                    We do not share, sell, rent, or disclose user data to third parties.
+                    Since no data is collected, there is no data to share.
                 </p>
 
-                <h2 className="h2">Security</h2>
+                <h2 className="h2">Data Security</h2>
                 <p>
-                    We take reasonable measures to protect the data stored by the app. However, no system is 100% secure.
-                    You are responsible for securing access to your device.
+                    Your data remains on your device and is protected by the security mechanisms
+                    of your operating system. We do not transmit data to external servers.
                 </p>
 
-                <h2 className="h2">Changes</h2>
+                <h2 className="h2">Changes to This Policy</h2>
                 <p>
-                    We may update this Privacy Policy from time to time. Updates will be reflected on this page.
+                    If this Privacy Policy changes, the updated version will be published on
+                    this page. Continued use of the app after changes indicates acceptance
+                    of the updated policy.
                 </p>
 
                 <h2 className="h2">Contact</h2>
                 <p>
-                    For privacy questions, contact us at: <a href="mailto:support@example.com">support@example.com</a>
+                    If you have questions about this Privacy Policy, contact us at{' '}
+                    <a href="mailto:support@avencis.studios.com">
+                        support@avencis.studios.com
+                    </a>
                 </p>
             </article>
         </>

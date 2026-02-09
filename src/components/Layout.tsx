@@ -22,7 +22,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <div className="container headerInner">
                     <Link to="/" className="brand">
                         <span className="brandMark" aria-hidden="true" />
-                        <span className="brandText">Expense Manager</span>
+                        <span className="brandText">Spencio</span>
                     </Link>
 
                     <nav className="nav">
@@ -40,7 +40,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <footer className="footer">
                 <div className="container footerInner">
                     <div className="footerLeft">
-                        <div className="footerBrand">Expense Manager</div>
+                        <div className="footerBrand">Spencio - Expense Manager</div>
                         <div className="footerMeta">© {year} Expense Manager</div>
                     </div>
                     <div className="footerRight">

@@ -18,7 +18,7 @@ export default function Support() {
                     <div className="panel">
                         <div className="panelTitle">Email</div>
                         <div className="panelText">
-                            <a href="mailto:support@example.com">support@example.com</a>
+                            <a href="mailto:support@avencis.studios.com">support@avencis.studios.com</a>
                             <div className="muted">Typical response: 1-3 business days</div>
                         </div>
                     </div>
