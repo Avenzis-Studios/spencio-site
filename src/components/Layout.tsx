@@ -41,7 +41,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <div className="container footerInner">
                     <div className="footerLeft">
                         <div className="footerBrand">Spencio - Expense Manager</div>
-                        <div className="footerMeta">© {year} Expense Manager</div>
+                        <div className="footerMeta">© {year} Avencis Studios</div>
                     </div>
                     <div className="footerRight">
                         <Link className="footerLink" to="/privacy">
