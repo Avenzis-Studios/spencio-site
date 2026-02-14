@@ -21,12 +21,11 @@ export default function Seo({ title, description }: SeoProps) {
 
         ensureMeta('description').setAttribute('content', description)
 
-        // Optional: theme color for mobile browsers
         const theme = document.querySelector('meta[name="theme-color"]') as HTMLMetaElement | null
         if (!theme) {
             const t = document.createElement('meta')
             t.setAttribute('name', 'theme-color')
-            t.setAttribute('content', '#0b1220')
+            t.setAttribute('content', '#0a0a1a')
             document.head.appendChild(t)
         }
     }, [title, description])
