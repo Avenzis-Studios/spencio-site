@@ -97,23 +97,25 @@ export default function Home() {
             >
                 <h2 className="text-[22px] font-bold mb-2.5">Download</h2>
                 <p className="text-text-muted">
-                    Replace these buttons with your App Store / Play Store links once published.
+                    Available now on iOS and Android.
                 </p>
 
                 <div className="flex gap-3 flex-wrap mt-3.5">
                     <a
                         className="inline-flex items-center justify-center px-5 py-2.5 rounded-xl font-semibold border border-white/[0.08] bg-gradient-to-r from-violet-accent/30 to-rose-accent/20 hover:scale-105 hover:shadow-[0_0_25px_rgba(139,92,246,0.3)] transition-all duration-300 hover:no-underline"
-                        href="#"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://apps.apple.com/us/app/spencio-expense-manager/id6758623618"
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
-                        App Store (Coming soon)
+                        App Store
                     </a>
                     <a
                         className="inline-flex items-center justify-center px-5 py-2.5 rounded-xl font-semibold border border-white/[0.08] bg-white/[0.04] hover:bg-white/[0.08] hover:scale-105 transition-all duration-300 hover:no-underline"
-                        href="#"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://play.google.com/store/apps/details?id=com.avenzis.spencio"
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
-                        Google Play (Coming soon)
+                        Google Play
                     </a>
                 </div>
             </section>
