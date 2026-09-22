@@ -5,6 +5,7 @@ import Privacy from './routes/Privacy'
 import Support from './routes/Support'
 import ReapPrivacy from './routes/ReapPrivacy'
 import ReapTerms from './routes/ReapTerms'
+import IosSmsGuide from './routes/IosSmsGuide'
 import NotFound from './routes/NotFound'
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
                 <Route path="/support" element={<Support />} />
                 <Route path="/reap/privacy" element={<ReapPrivacy />} />
                 <Route path="/reap/terms" element={<ReapTerms />} />
+                <Route path="/guides/ios-sms-setup" element={<IosSmsGuide />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </Layout>
