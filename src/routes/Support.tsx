@@ -1,4 +1,13 @@
+import { Link } from 'react-router-dom'
 import Seo from '../components/Seo'
+
+const guidePanels = [
+    {
+        title: 'Auto-import bank texts on iPhone',
+        text: 'A step-by-step guide to setting up automatic bank transaction detection on iOS.',
+        to: '/guides/ios-sms-setup',
+    },
+]
 
 const supportPanels = [
     {
@@ -68,6 +77,20 @@ export default function Support() {
                                 {panel.content}
                             </div>
                         </div>
+                    ))}
+                </div>
+
+                <h2 className="text-[22px] font-bold mt-6 mb-2.5 animate-fade-in-up delay-500">Guides</h2>
+                <div className="grid gap-2.5 mb-3">
+                    {guidePanels.map((panel) => (
+                        <Link
+                            key={panel.title}
+                            to={panel.to}
+                            className="block border border-white/[0.08] rounded-2xl p-3.5 bg-panel-dark/45 hover:border-emerald-accent/50 hover:shadow-[0_0_15px_rgba(16,185,129,0.15)] transition-all duration-300 hover:no-underline animate-fade-in-up delay-500"
+                        >
+                            <div className="font-bold mb-1.5">{panel.title}</div>
+                            <div className="text-text-muted leading-relaxed">{panel.text}</div>
+                        </Link>
                     ))}
                 </div>
 
